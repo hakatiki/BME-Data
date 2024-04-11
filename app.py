@@ -85,8 +85,8 @@ def analyze_and_plot_all(data_combined):
     fall_avg_corrected = grouped_data[grouped_data['Season'] == 'Fall']['Numeric Grade'].mean()
     st.subheader('Analysis of Grades by Semesters Fall and Spring')
     st.markdown(f"""
-    Your average grade during Spring is: {spring_avg_corrected}.
-    While during Fall you managed to achieve: {fall_avg_corrected}
+    Your average grade during Spring is: {str(spring_avg_corrected)[:5]}.
+    While during Fall you managed to achieve: {str(fall_avg_corrected)[:5]}
     """)
 
     # Cumulative credits by Félév
