@@ -166,7 +166,8 @@ st.title("Course Performance Analysis")
 
 st.markdown("""
 Upload two Excel files containing course data to analyze the relationship between semester progression, 
-credit*grade product, and observe cumulative trends. Press the 'Analyze' button to start the analysis after uploading the files.
+credit x grade product, and observe cumulative trends. Press the 'Analyze' button to start the analysis after uploading the files.
+You can download it from Neptun by going to "Leckekönyv" and selecting all semesters and then clicking export to xlsx.
 """)
 
 file1 = st.file_uploader("Choose first Excel file (BSc)", type=['xlsx'])
